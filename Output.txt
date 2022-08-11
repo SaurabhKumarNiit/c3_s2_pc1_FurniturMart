@@ -1,0 +1,9 @@
+Furniture Code :1234
+Furniture Type :table
+Furniture Colour :red
+Furniture Grade:A
+Furniture Usage :outdoor
+Furniture Price :1000
+Total Amount  :950.0
+
+Process finished with exit code 0
