@@ -8,14 +8,23 @@ public class FurnitureMart {
     char gradeOfFurniture;
     String furnitureColour;
     String furnitureUsage;
+
     long price;
     FurnitureMart(){
         furnitureCode=0;
-        furnitureType="";
+        furnitureType=" ";
         gradeOfFurniture='\u0000';
-        furnitureColour="";
-        furnitureUsage="";
+        furnitureColour=" ";
+        furnitureUsage=" ";
+        price= 0L;
 
     }
+    public double DiscountOnPurchase(){
 
+        if(furnitureUsage=="outdoor") {
+            return price - ((price * 5) / 100);
+        }
+        else
+            return price;
+    }
 }
