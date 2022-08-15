@@ -1,6 +1,16 @@
-Furniture Code :1234
-Furniture Type :table
-Furniture Colour :red
+Enter Furniture Type
+Table
+Enter Furniture Code
+11223
+Enter Furniture Colour
+Red
+Enter Grade of Furniture
+A
+Enter Furniture Price
+1000
+Furniture Type :Table
+Furniture Code :11223
+Furniture Colour :Red
 Furniture Grade:A
 Furniture Usage :outdoor
 Furniture Price :1000

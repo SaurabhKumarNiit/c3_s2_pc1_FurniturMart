@@ -20,8 +20,8 @@ public class FurnitureMart {
 
     }
     public double DiscountOnPurchase(){
-
-        if(furnitureUsage=="outdoor") {
+            String Usage="outdoor";
+        if(furnitureUsage==Usage) {
             return price - ((price * 5) / 100);
         }
         else
