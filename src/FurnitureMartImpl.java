@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class FurnitureMartImpl {
     public static void main(String[] args){
         Scanner scan=new Scanner(System.in);
